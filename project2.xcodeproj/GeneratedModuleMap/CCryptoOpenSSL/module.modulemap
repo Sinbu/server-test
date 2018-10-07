@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/smac/Library/Mobile Documents/com~apple~CloudDocs/Work/server/project2/.build/checkouts/crypto.git--76664029097274423/Sources/CCryptoOpenSSL/include"
+    export *
+}

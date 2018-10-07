@@ -1,0 +1,4 @@
+module CNIOSHA1 {
+    umbrella "/Users/smac/Library/Mobile Documents/com~apple~CloudDocs/Work/server/project2/.build/checkouts/swift-nio.git--4679825126015969706/Sources/CNIOSHA1/include"
+    export *
+}
