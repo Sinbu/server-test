@@ -80,7 +80,7 @@ func random(_ n: Int) -> String
     
     for _ in 0..<n
     {
-        let r = Int(arc4random_uniform(UInt32(a.characters.count)))
+        let r = Int.random(in:0...(a.count-1))
         
         s += String(a[a.index(a.startIndex, offsetBy: r)])
     }
