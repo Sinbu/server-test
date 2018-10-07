@@ -5068,25 +5068,25 @@
 
 /* Begin PBXFileReference section */
 		4DCEEDBE2169FFEA00B4B79E /* Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
-		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Async::Product" /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Async.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::COperatingSystem::Product" /* COperatingSystem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = COperatingSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Debugging::Product" /* Debugging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Debugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::Async::Product" /* Async.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Async.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::COperatingSystem::Product" /* COperatingSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COperatingSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Core::Debugging::Product" /* Debugging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Debugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Crypto::CBase32::Product" /* CBase32.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CBase32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Crypto::CBcrypt::Product" /* CBcrypt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CBcrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Crypto::CCryptoOpenSSL::Product" /* CCryptoOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CCryptoOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Crypto::Crypto::Product" /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Crypto::Random::Product" /* Random.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"DatabaseKit::DatabaseKit::Product" /* DatabaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DatabaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Fluent::Fluent::Product" /* Fluent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Fluent::FluentSQL::Product" /* FluentSQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FluentSQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"FluentSQLite::FluentSQLite::Product" /* FluentSQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FluentSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"HTTP::HTTP::Product" /* HTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Multipart::Multipart::Product" /* Multipart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Multipart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Crypto::Crypto::Product" /* Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Crypto::Random::Product" /* Random.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"DatabaseKit::DatabaseKit::Product" /* DatabaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DatabaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Fluent::Fluent::Product" /* Fluent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Fluent::FluentSQL::Product" /* FluentSQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentSQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"FluentSQLite::FluentSQLite::Product" /* FluentSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"HTTP::HTTP::Product" /* HTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Multipart::Multipart::Product" /* Multipart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Multipart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* MigrationSupporting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationSupporting.swift; sourceTree = "<group>"; };
 		OBJ_101 /* Migrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrations.swift; sourceTree = "<group>"; };
 		OBJ_103 /* AnyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyModel.swift; sourceTree = "<group>"; };
@@ -5764,33 +5764,33 @@
 		OBJ_97 /* Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
 		OBJ_98 /* MigrationConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationConfig.swift; sourceTree = "<group>"; };
 		OBJ_99 /* MigrationLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationLog.swift; sourceTree = "<group>"; };
-		"Routing::Routing::Product" /* Routing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Routing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SQL::SQL::Product" /* SQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SQLite::SQLite::Product" /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Service::Service::Product" /* Service.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"TemplateKit::TemplateKit::Product" /* TemplateKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"URLEncodedForm::URLEncodedForm::Product" /* URLEncodedForm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = URLEncodedForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Validation::Validation::Product" /* Validation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Vapor::Vapor::Product" /* Vapor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vapor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"WebSocket::WebSocket::Product" /* WebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"project2::App::Product" /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"project2::AppTests::Product" /* AppTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		"project2::Run::Product" /* Run */ = {isa = PBXFileReference; lastKnownFileType = text; path = Run; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Routing::Routing::Product" /* Routing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Routing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SQL::SQL::Product" /* SQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SQLite::SQLite::Product" /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Service::Service::Product" /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TemplateKit::TemplateKit::Product" /* TemplateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TemplateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"URLEncodedForm::URLEncodedForm::Product" /* URLEncodedForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URLEncodedForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Validation::Validation::Product" /* Validation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Vapor::Vapor::Product" /* Vapor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Vapor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"WebSocket::WebSocket::Product" /* WebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"project2::App::Product" /* App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"project2::AppTests::Product" /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"project2::Run::Product" /* Run */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Run; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swift-nio-ssl::CNIOOpenSSL::Product" /* CNIOOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio-ssl::NIOOpenSSL::Product" /* NIOOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio-ssl::NIOOpenSSL::Product" /* NIOOpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOOpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swift-nio::CNIOAtomics::Product" /* CNIOAtomics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOAtomics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swift-nio::CNIODarwin::Product" /* CNIODarwin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIODarwin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swift-nio::CNIOHTTPParser::Product" /* CNIOHTTPParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swift-nio::CNIOLinux::Product" /* CNIOLinux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOLinux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOSHA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swift-nio::CNIOZlib::Product" /* CNIOZlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CNIOZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIO::Product" /* NIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOConcurrencyHelpers::Product" /* NIOConcurrencyHelpers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOConcurrencyHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOFoundationCompat::Product" /* NIOFoundationCompat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOFoundationCompat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOHTTP1::Product" /* NIOHTTP1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOHTTP1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOPriorityQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOTLS::Product" /* NIOTLS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOTLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-nio::NIOWebSocket::Product" /* NIOWebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NIOWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIO::Product" /* NIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOConcurrencyHelpers::Product" /* NIOConcurrencyHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOConcurrencyHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOFoundationCompat::Product" /* NIOFoundationCompat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOFoundationCompat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOHTTP1::Product" /* NIOHTTP1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOHTTP1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOPriorityQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOTLS::Product" /* NIOTLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOTLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-nio::NIOWebSocket::Product" /* NIOWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -10463,6 +10463,116 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"Console::Command" = {
+						LastSwiftMigration = 1000;
+					};
+					"Console::Console" = {
+						LastSwiftMigration = 1000;
+					};
+					"Console::Logging" = {
+						LastSwiftMigration = 1000;
+					};
+					"Core::Async" = {
+						LastSwiftMigration = 1000;
+					};
+					"Core::Bits" = {
+						LastSwiftMigration = 1000;
+					};
+					"Core::COperatingSystem" = {
+						LastSwiftMigration = 1000;
+					};
+					"Core::Core" = {
+						LastSwiftMigration = 1000;
+					};
+					"Core::Debugging" = {
+						LastSwiftMigration = 1000;
+					};
+					"Crypto::Crypto" = {
+						LastSwiftMigration = 1000;
+					};
+					"Crypto::Random" = {
+						LastSwiftMigration = 1000;
+					};
+					"DatabaseKit::DatabaseKit" = {
+						LastSwiftMigration = 1000;
+					};
+					"Fluent::Fluent" = {
+						LastSwiftMigration = 1000;
+					};
+					"Fluent::FluentSQL" = {
+						LastSwiftMigration = 1000;
+					};
+					"FluentSQLite::FluentSQLite" = {
+						LastSwiftMigration = 1000;
+					};
+					"HTTP::HTTP" = {
+						LastSwiftMigration = 1000;
+					};
+					"Multipart::Multipart" = {
+						LastSwiftMigration = 1000;
+					};
+					"Routing::Routing" = {
+						LastSwiftMigration = 1000;
+					};
+					"SQL::SQL" = {
+						LastSwiftMigration = 1000;
+					};
+					"SQLite::SQLite" = {
+						LastSwiftMigration = 1000;
+					};
+					"Service::Service" = {
+						LastSwiftMigration = 1000;
+					};
+					"TemplateKit::TemplateKit" = {
+						LastSwiftMigration = 1000;
+					};
+					"URLEncodedForm::URLEncodedForm" = {
+						LastSwiftMigration = 1000;
+					};
+					"Validation::Validation" = {
+						LastSwiftMigration = 1000;
+					};
+					"Vapor::Vapor" = {
+						LastSwiftMigration = 1000;
+					};
+					"WebSocket::WebSocket" = {
+						LastSwiftMigration = 1000;
+					};
+					"project2::App" = {
+						LastSwiftMigration = 1000;
+					};
+					"project2::AppTests" = {
+						LastSwiftMigration = 1000;
+					};
+					"project2::Run" = {
+						LastSwiftMigration = 1000;
+					};
+					"swift-nio-ssl::NIOOpenSSL" = {
+						LastSwiftMigration = 1000;
+					};
+					"swift-nio::NIO" = {
+						LastSwiftMigration = 1000;
+					};
+					"swift-nio::NIOConcurrencyHelpers" = {
+						LastSwiftMigration = 1000;
+					};
+					"swift-nio::NIOFoundationCompat" = {
+						LastSwiftMigration = 1000;
+					};
+					"swift-nio::NIOHTTP1" = {
+						LastSwiftMigration = 1000;
+					};
+					"swift-nio::NIOPriorityQueue" = {
+						LastSwiftMigration = 1000;
+					};
+					"swift-nio::NIOTLS" = {
+						LastSwiftMigration = 1000;
+					};
+					"swift-nio::NIOWebSocket" = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "project2" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -14462,7 +14572,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libressl/2.7.4/include -I/usr/local/Cellar/libressl/2.7.4/include -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/crypto.git--76664029097274423/Sources/CBcrypt/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/crypto.git--76664029097274423/Sources/CBase32/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = AppTests;
 			};
 			name = Debug;
@@ -14516,7 +14626,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libressl/2.7.4/include -I/usr/local/Cellar/libressl/2.7.4/include -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/crypto.git--76664029097274423/Sources/CBcrypt/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/crypto.git--76664029097274423/Sources/CBase32/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/project2.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = AppTests;
 			};
 			name = Release;
@@ -14554,7 +14664,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Async;
 			};
 			name = Debug;
@@ -14592,7 +14702,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Async;
 			};
 			name = Release;
@@ -14630,7 +14740,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Bits;
 			};
 			name = Debug;
@@ -14668,7 +14778,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Bits;
 			};
 			name = Release;
@@ -15368,7 +15478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = COperatingSystem;
 			};
 			name = Debug;
@@ -15392,7 +15502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = COperatingSystem;
 			};
 			name = Release;
@@ -15430,7 +15540,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Command;
 			};
 			name = Debug;
@@ -15468,7 +15578,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Command;
 			};
 			name = Release;
@@ -15506,7 +15616,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Console;
 			};
 			name = Debug;
@@ -15544,7 +15654,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Console;
 			};
 			name = Release;
@@ -15600,7 +15710,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Core;
 			};
 			name = Debug;
@@ -15638,7 +15748,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Core;
 			};
 			name = Release;
@@ -15709,7 +15819,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Crypto;
 			};
 			name = Debug;
@@ -15762,7 +15872,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Crypto;
 			};
 			name = Release;
@@ -15818,7 +15928,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = DatabaseKit;
 			};
 			name = Debug;
@@ -15856,7 +15966,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = DatabaseKit;
 			};
 			name = Release;
@@ -15898,7 +16008,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Debugging;
 			};
 			name = Debug;
@@ -15922,7 +16032,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Debugging;
 			};
 			name = Release;
@@ -15960,7 +16070,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Fluent;
 			};
 			name = Debug;
@@ -15998,7 +16108,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Fluent;
 			};
 			name = Release;
@@ -16054,7 +16164,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = FluentSQL;
 			};
 			name = Debug;
@@ -16092,7 +16202,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = FluentSQL;
 			};
 			name = Release;
@@ -16130,7 +16240,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = FluentSQLite;
 			};
 			name = Debug;
@@ -16168,7 +16278,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = FluentSQLite;
 			};
 			name = Release;
@@ -16239,7 +16349,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = HTTP;
 			};
 			name = Debug;
@@ -16292,7 +16402,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = HTTP;
 			};
 			name = Release;
@@ -16348,7 +16458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Logging;
 			};
 			name = Debug;
@@ -16386,7 +16496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Logging;
 			};
 			name = Release;
@@ -16424,7 +16534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Multipart;
 			};
 			name = Debug;
@@ -16462,7 +16572,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Multipart;
 			};
 			name = Release;
@@ -16518,7 +16628,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIO;
 			};
 			name = Debug;
@@ -16556,7 +16666,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIO;
 			};
 			name = Release;
@@ -16588,7 +16698,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOConcurrencyHelpers;
 			};
 			name = Debug;
@@ -16620,7 +16730,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOConcurrencyHelpers;
 			};
 			name = Release;
@@ -16658,7 +16768,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOFoundationCompat;
 			};
 			name = Debug;
@@ -16696,7 +16806,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOFoundationCompat;
 			};
 			name = Release;
@@ -16738,7 +16848,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOHTTP1;
 			};
 			name = Debug;
@@ -16780,7 +16890,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOHTTP1;
 			};
 			name = Release;
@@ -16829,7 +16939,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOOpenSSL;
 			};
 			name = Debug;
@@ -16878,7 +16988,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOOpenSSL;
 			};
 			name = Release;
@@ -16908,7 +17018,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOPriorityQueue;
 			};
 			name = Debug;
@@ -16938,7 +17048,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOPriorityQueue;
 			};
 			name = Release;
@@ -16976,7 +17086,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOTLS;
 			};
 			name = Debug;
@@ -17014,7 +17124,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOTLS;
 			};
 			name = Release;
@@ -17056,7 +17166,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOWebSocket;
 			};
 			name = Debug;
@@ -17098,7 +17208,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = NIOWebSocket;
 			};
 			name = Release;
@@ -17145,7 +17255,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Random;
 			};
 			name = Debug;
@@ -17192,7 +17302,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Random;
 			};
 			name = Release;
@@ -17230,7 +17340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Routing;
 			};
 			name = Debug;
@@ -17268,7 +17378,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Routing;
 			};
 			name = Release;
@@ -17340,7 +17450,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Run;
 			};
 			name = Debug;
@@ -17394,7 +17504,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Run;
 			};
 			name = Release;
@@ -17432,7 +17542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = SQL;
 			};
 			name = Debug;
@@ -17470,7 +17580,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = SQL;
 			};
 			name = Release;
@@ -17526,7 +17636,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = SQLite;
 			};
 			name = Debug;
@@ -17564,7 +17674,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = SQLite;
 			};
 			name = Release;
@@ -17620,7 +17730,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Service;
 			};
 			name = Debug;
@@ -17658,7 +17768,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Service;
 			};
 			name = Release;
@@ -17714,7 +17824,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = TemplateKit;
 			};
 			name = Debug;
@@ -17752,7 +17862,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = TemplateKit;
 			};
 			name = Release;
@@ -17808,7 +17918,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = URLEncodedForm;
 			};
 			name = Debug;
@@ -17846,7 +17956,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = URLEncodedForm;
 			};
 			name = Release;
@@ -17902,7 +18012,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Validation;
 			};
 			name = Debug;
@@ -17940,7 +18050,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Validation;
 			};
 			name = Release;
@@ -18015,7 +18125,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Vapor;
 			};
 			name = Debug;
@@ -18072,7 +18182,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Vapor;
 			};
 			name = Release;
@@ -18147,7 +18257,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = WebSocket;
 			};
 			name = Debug;
@@ -18204,7 +18314,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = WebSocket;
 			};
 			name = Release;
@@ -18391,7 +18501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = App;
 			};
 			name = Debug;
@@ -18448,7 +18558,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = App;
 			};
 			name = Release;
