@@ -1,0 +1,9 @@
+
+#set("body") {
+#embed("pollchoices")
+#embed("pollresult")
+}
+#set("h1") {#(title)}
+#set("title") {#(title)}
+
+#embed("master")

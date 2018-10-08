@@ -1,6 +1,7 @@
 import Vapor
 import Fluent
 import FluentSQLite
+import Leaf
 
 /// Called before your application initializes.
 ///
@@ -25,6 +26,9 @@ public func configure(
     let db = try SQLiteDatabase(storage: .file(path: "\(directoryConfig.workDir)polls.db"))
     databaseConfig.add(database: db, as: .sqlite)
     services.register(databaseConfig)
+    
+    try services.register(LeafProvider())
+    config.prefer(LeafRenderer.self, for: ViewRenderer.self)
     
     var migrationConfig = MigrationConfig()
     migrationConfig.add(model: Poll.self, database: .sqlite)

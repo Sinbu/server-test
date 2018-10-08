@@ -24,14 +24,25 @@ public func routes(_ router: Router) throws {
         }
     }
     
-    router.get("polls", UUID.parameter) { req -> Future<Poll> in
+//    router.get("polls", UUID.parameter) { req -> Future<Poll> in
+//
+//        let id = try req.parameters.next(UUID.self)
+//
+//        return Poll.find(id, on: req).unwrap(or: Abort(.notFound)).map(to: Poll.self) {poll in
+//            var newPoll = poll
+//            newPoll.password = nil
+//            return newPoll
+//        }
+//    }
+    
+    router.get("polls", UUID.parameter) { req -> Future<View> in
+        
         let id = try req.parameters.next(UUID.self)
         
-        return Poll.find(id, on: req).unwrap(or: Abort(.notFound)).map(to: Poll.self) {poll in
-            var newPoll = poll
-            newPoll.password = nil
-            return newPoll
-        }
+        let poll = Poll.find(id, on: req).unwrap(or: Abort(.notFound))
+        
+        let context = poll
+        return try req.view().render("poll", context)
     }
     
     router.delete("polls", UUID.parameter, String.parameter) { req -> Future<Poll> in
@@ -50,6 +61,29 @@ public func routes(_ router: Router) throws {
         
         
         return poll
+    }
+    
+    router.post(PollResponse.self, at: "vote", UUID.parameter) { req, pollResponse -> Future<Poll> in
+        
+        let id = try req.parameters.next(UUID.self)
+        
+        if (pollResponse.optionSelected == nil) {
+            throw Abort(HTTPResponseStatus.noContent)
+        }
+        
+        return Poll.find(id, on: req).flatMap(to: Poll.self) {
+            poll in
+            guard var poll = poll else {
+                throw Abort(.notFound)
+            }
+            if(pollResponse.optionSelected == 1) {
+                poll.votes1 += 1
+            } else {
+                poll.votes2 += 1
+            }
+            
+            return poll.save(on: req)
+        }
     }
     
     router.post("polls","vote", UUID.parameter, Int.parameter) { req -> Future<Poll> in

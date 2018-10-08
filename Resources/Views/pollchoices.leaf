@@ -1,0 +1,5 @@
+<form action="/vote/#(id)/" method="POST">
+<p><input type="radio" name="optionSelected" value="1">#(option1)</p>
+<p><input type="radio" name="optionSelected" value="2">#(option2)</p>
+<p><input type="submit" value="Vote!"/></p>
+</form>

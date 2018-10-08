@@ -19,3 +19,7 @@ struct Poll: Content, SQLiteUUIDModel, Migration {
     var votes1: Int
     var votes2: Int
 }
+
+struct PollResponse: Content {
+    var optionSelected: Int?
+}
